@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+
+canvas {
+  background-color: transparent !important;
+}
+.image-wrapper {
+  opacity: 0.5; /* Adjust as needed */
+}
