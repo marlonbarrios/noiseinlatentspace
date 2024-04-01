@@ -13,13 +13,13 @@ fal.config({
 const seed = Math.floor(Math.random() * 100000);
 
 export default function Home() {
-  const [input, setInput] = useState('hyper-realistic, HD, 3D, black background, dramatic light and elliptic volumes,  complexity floating organic growth tendrils glowing transparent cells, many brains slime mold neuronal blood bones glass diatom vectors vortex architectures of water, fire, light, oil, smoke and internal light and strange colors no gravity');
+  const [input, setInput] = useState(' sunyata,zero,  enso, , halo, 3D, black background, white liquid light, hight dimensional spaces, non euclidian, meta abstraction, vectors of white and bight smoke');
   // const [input, setInput] = useState('3D, balck background, dramatic light, complex system, liquid light, hight dimensional spaces, non euclidian, meta abstraction,  blackhole,  internal sun neuron, morphing black and white, networks');
   const [strength, setStrength] = useState(0.75);
   const [image, setImage] = useState(null);
 
   const [isClient, setIsClient] = useState<boolean>(false);
-  const [audioSrc, setAudioSrc] = useState('/balckbox.mp3');
+  const [audioSrc, setAudioSrc] = useState('/sunyata02.mp3');
 
   useEffect(() => { setIsClient(true) }, []);
 
@@ -42,8 +42,8 @@ export default function Home() {
         strength: strength,
         seed: seed,
         prompt: input,
-        width: 512,
-        height: 512,
+        width: 600,
+        height: 600,
 
         image_url: image_url
       });
@@ -54,7 +54,7 @@ export default function Home() {
     if (isClient) {
       const interval = setInterval(() => {
         captureAndSendImage();
-      }, 10); // Automatically capture and send image every 5 seconds
+      }, 200); // Automatically capture and send image every 5 seconds
 
       return () => clearInterval(interval);
     }
@@ -62,33 +62,45 @@ export default function Home() {
 
   return (
     <main className="bg-black flex flex-col items-center justify-center ">
-   
+     
+  
     <div className="relative min-h-screen bg-black text-white">
     
       <div className="absolute top-0 left-0 w-full h-full">
         {isClient && <P5Block />}
       </div>
       <div className="image-wrapper">
-      <div className="image-wrapper" style={{ opacity: 0.9,  width: 512, height: 512 }}>
+      <div className="image-wrapper" style={{ opacity: 1,  width: 600, height: 600}}>
   <Image
 
     src= {image || '/placeholder.png'}
 
     layout="fill"
     objectFit="cover"
-    alt="Generated Image"
+    alt="Generating Image"
   />
 
 </div>
+
       </div>
 
 
   
-      {/* <div className="mb-4">
+     
+      
+    </div>
+    <div className="audio-player">
+        <p className="text-xl m-0">blackbox hyper-objects</p>
+        <audio controls src={audioSrc} loop autoPlay>
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+  <div className="mb-4 text-white m-10">
+  <p className="text-xl mb-2">perlin noise in latent space</p>
         <p className="text-xl mb-2">play sound, press spacebar to reset the canvas and move the mouse to draw and interact with the generative design and AI model.</p>
         <p className="text-xl mb-2">concept, generative design, programming, and music by <a href="https://linktr.ee/marlonbarriososolano" target="_blank" rel="noopener noreferrer">Marlon Barrios Solano</a></p>
-      </div> */}
-    </div>
+        <p>supported by a grant from  <a href="https://fal.ai/" target="_blank" rel="noopener noreferrer">Fal AI</a></p>
+      </div>
   </main>
  
   );

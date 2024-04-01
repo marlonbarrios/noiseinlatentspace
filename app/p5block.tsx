@@ -14,7 +14,7 @@ const sketch: Sketch = (p5) => {
   let prevMouseY = -1;
 
   p5.setup = () => {
-    p5.createCanvas(512, p5.windowHeight);
+    p5.createCanvas(600, p5.windowHeight);
     p5.noiseDetail(0.80, 24);
   };
   p5.windowResized = () => {
@@ -42,8 +42,8 @@ const sketch: Sketch = (p5) => {
     let x = p5.map(p5.noise(xoff), 0, 1, 0, p5.width) * 2;
     let y = p5.map(p5.noise(yoff), 0, 1, 0, p5.height) * 2;
 
-    let radius = p5.map(p5.noise(radiusOff), 0, 1, 5, 100);
-    let radiusY = p5.map(p5.noise(radiusOff-100), 0, 1, 5, 100);
+    let radius = p5.map(p5.noise(radiusOff), 0, 1, 5, 300);
+    let radiusY = p5.map(p5.noise(radiusOff-100), 0, 1, 5, 300);
 
     if (p5.dist(p5.mouseX, p5.mouseY, prevMouseX, prevMouseY) > 1) {
       x = p5.mouseX;
