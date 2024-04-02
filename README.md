@@ -1,5 +1,7 @@
 # Blackbox Hyperelements 01
 
+![Screenshot 2024-04-01 at 3 15 32 PM](https://github.com/marlonbarrios/noiseinlatentspace/assets/90220317/ccabf48c-b9d8-4973-a05d-25059b496ce7)
+
 In the innovative frontier of digital exploration, the Blackbox Hyperelements project emerges as a beacon of hypergenerativity, intertwining algorithmic design, AI-driven creativity, and user interactivity within a browser-based environment. This initiative has birthed three applications, each serving as a portal to a world where speculative materials could potentially manipulate time and space. These applications are not mere tools; they are immersive experiences, prototypes of double generativity, designed to invite users into a co-creative process with technology.
 
 ## Applications Overview
