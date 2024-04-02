@@ -1,41 +1,75 @@
-# Blackbox Hyperelements 01
+# Sunyata: Forming Emptiness and Emptying Form
 
-![Screenshot 2024-04-01 at 3 15 32 PM](https://github.com/marlonbarrios/noiseinlatentspace/assets/90220317/ccabf48c-b9d8-4973-a05d-25059b496ce7)
+## Introduction
+**Sunyata** is a digital art piece inspired by the Heart Sutra, exploring the concepts of emptiness and form. This interactive web art piece combines creative coding, generative AI, and real-time, low-latency models to offer a dynamic, meditative experience. It's not just an art project; it's a tool for contemplation, challenging viewers to reflect on form, time, and existence.
 
-In the innovative frontier of digital exploration, the Blackbox Hyperelements project emerges as a beacon of hypergenerativity, intertwining algorithmic design, AI-driven creativity, and user interactivity within a browser-based environment. This initiative has birthed three applications, each serving as a portal to a world where speculative materials could potentially manipulate time and space. These applications are not mere tools; they are immersive experiences, prototypes of double generativity, designed to invite users into a co-creative process with technology.
+## Live Application
+Experience **Sunyata** live and immerse yourself in a meditative journey: [Sunyata Live App](https://noiseinlatentspace.vercel.app/).
 
-## Applications Overview
+## Getting Started
 
-- **Blackbox HyperElements 01**: Utilizes p5.js for creative coding, creating a dynamic environment where a white circle, driven by Perlin noise, moves and changes size to reflect the nuances of time and motion. This visual is then captured and sent every 200 ms to the AI model, which responds in near real-time, enhancing the interactive experience. [Experience it live](https://hyperelement.vercel.app/).
+### Prerequisites
+- Node.js (v14 or newer recommended)
+- npm or yarn
 
+### Installation
+1. Clone the repository:
+git clone https://yourprojecturl.git
 
-## Beyond Browser-Based Interactions
+css
+Copy code
+2. Navigate to the project directory:
+cd sunyata
 
-These applications transcend the digital realm to become versatile tools for live visual performances (VJing) and interactive installations. Equipped with their own soundtracks, they offer a multi-sensory experience that can be dynamically altered in real-time, providing a rich canvas for creative expression and public engagement. Whether as standalone multimedia pieces in a gallery setting or as part of a live performance toolkit, these applications bridge the gap between art and technology, inviting participants to immerse themselves in a world of generative beauty and auditory landscapes.
+markdown
+Copy code
+3. Install dependencies:
+npm install
 
-## Acknowledgment and Vision
+perl
+Copy code
+or use yarn:
+yarn
 
-Supported by an artist researcher grant from Fal.ai, the Blackbox Hyperelements project is a testament to the fusion of artistic exploration and scientific inquiry. This project not only challenges our understanding of time and materiality but also redefines the possibilities of interactive and generative art.
+sql
+Copy code
 
-## Engaging with the Project
+### Running the Project
+Start the project with:
+npm run dev
 
-We invite you to dive into each application, to explore, interact, and co-create with the underlying technologies. These applications are designed not just for observation but for active participation in a journey through speculative materials and the manipulation of time and space.
+csharp
+Copy code
+or with yarn:
+yarn dev
 
-### Getting Started
+markdown
+Copy code
+Then, open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Ensure you have Node.js and npm installed on your system.
-- Clone the project repository and navigate into your desired application directory.
-- Install dependencies with `npm install` and start the development server with `npm run dev`.
-- Visit `http://localhost:3000` in your browser to begin your exploratory journey.
+## Usage
+**Sunyata** is designed to be interactive:
+- Engage with dynamic, AI-generated visuals responding to Heart Sutra-inspired prompts.
+- Use mouse movement to interact with the p5.js canvas, altering visual patterns.
+- A soundscape accompanies your exploration, deepening the meditative experience.
+
+## Features
+- **Dynamic AI Visuals**: Generates visuals based on the Heart Sutra.
+- **Interactive Experience**: Direct engagement through mouse movement and other interactions.
+- **Creative Coding**: Utilizes Next.js and p5.js for a responsive web experience.
+- **Layering Technique**: Plays with layering and transparencies to add visual depth.
 
 ## Contributing
+Your contributions are welcome! Here's how to get started:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Contributions, whether in the form of feedback, ideas, or code, are welcome. By engaging with the project, you contribute to a growing community of artists, technologists, and thinkers who are exploring the boundaries of interactive and generative art.
+## Acknowledgments
+- Supported by a grant from FAL.AI for using real-time models.
+- Concept, design, programming, and music by Marlon Barrios Solano.
 
 ## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## In Summary
-
-The Blackbox Hyperelements project, through its series of applications, represents a pioneering venture into the realm of interactive and generative design. With the integration of unique soundtracks and the capability for live VJing and interactive installations, these applications offer a holistic experience that engages the senses in multiple dimensions. The consistent thematic and technical strength across the applications ensures a coherent exploration of complex concepts, inviting users to not just observe but actively participate in the creative process.
+Distributed under the MIT License. See `LICENSE` for more information.
