@@ -1,5 +1,8 @@
 # Sunyata: Forming Emptiness and Emptying Form
 
+![Screenshot 2024-04-01 at 10 15 33 PM](https://github.com/marlonbarrios/noiseinlatentspace/assets/90220317/1c553bcf-080c-4e51-b9b6-f33f50209556)
+
+
 ## Introduction
 **Sunyata** is a digital art piece inspired by the Heart Sutra, exploring the concepts of emptiness and form. This interactive web art piece combines creative coding, generative AI, and real-time, low-latency models to offer a dynamic, meditative experience. It's not just an art project; it's a tool for contemplation, challenging viewers to reflect on form, time, and existence.
 
@@ -73,3 +76,6 @@ Your contributions are welcome! Here's how to get started:
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
+
+![Screenshot 2024-04-01 at 10 15 47 PM](https://github.com/marlonbarrios/noiseinlatentspace/assets/90220317/36979fbf-07c5-410d-8862-33c363487880)
+![Screenshot 2024-04-01 at 10 16 24 PM](https://github.com/marlonbarrios/noiseinlatentspace/assets/90220317/da8540e5-060d-420e-95e3-a8208276448b)
